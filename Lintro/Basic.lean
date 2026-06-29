@@ -46,7 +46,7 @@ theorem my_first_theorem : 1 + 1 = 2 := by
   sorry
 
 /-- Triangular numbers are numbers of the form ∑_{i ≤ 0}^n i. -/
-def TriangularNumber (n : ℕ) : ℕ := ∑ i ∈ Finset.Icc 1 n, i
+def TriangularNumber (n : ℕ) : ℕ := sorry
 
 theorem triangularNumber_eq (n : ℕ) : TriangularNumber n = Nat.choose n 2 := by
   rw [TriangularNumber]
@@ -110,7 +110,7 @@ example : Nat.Prime 101 := by
 
 example : (10 ^ 81 - 9) * Real.pi
   = 999999999999999999999999999999999999999999999999999999999999999999999999999999991 * Real.pi := by
-  norm_num
+  sorry
 
 
 

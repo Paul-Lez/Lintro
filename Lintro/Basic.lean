@@ -1,8 +1,17 @@
+/-
+Copyright (c) 2026 Paul Lezeau. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Paul Lezeau
+-/
+
 import Mathlib
 
 /-! # A small demo file
 
-This file contains a few basic demos to show how Lean works
+This file contains a few basic demos to show how Lean works.
+
+Before using this, make sure you have the Lean and Error lens extensions installed.
+
 -/
 
 
